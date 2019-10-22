@@ -6,132 +6,126 @@
         <link rel="stylesheet" href="stylesheet.css">
         <link href="https://fonts.googleapis.com/css?family=Abril+Fatface&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <title>Authentic Grace Clothing Boutique</title>
     </head>
 
     <body>
-    
-            <header>
-                    <div class="header-container"> 
-                            <!--element for the header logo-->
-                    
-                            <div class="header-logo"><a class="header_logo" href="#">
-                                <img src="img/authentic_grace_logo.jpg" width="120px">
-                            </div>
-                    
-                                <div class="header-list-container">
-                                    <ul>
-                                        <li><a href="#">Shop</a></li>
-                                        <li><a href="#">Our Story</a></li>
-                                        <li><a href="#">Blog</a></li>
-                                        <li><a href="#">Contact</a></li>
-                                    </ul>
-                                </div> 
-                           
+    <header>
+            <div class="top-row">
+                    <div class="header-logo"><a class="href="#">
+                        <img src="img/Logo.png" alt="Autentic Grace Logo">
+                    </div>
                     <div class="button">               
-                    <!-- Trigger/Open The Modal -->
-                    <button id="myBtn">Join Our Newsletter!</button>
-                    
-                    <!-- The Modal -->
-                    <div id="myModal" class="modal">
-                    
-                      <!-- Modal content -->
-                      <div class="modal-content">
-                        <span class="close">&times;</span>
-                        <h2>Join our Newsletter!</h2>
-                        <form action="/action_page.php">
-                            Full Name:<br>
-                            <input type="text" name="fullname" value="Enter">
-                            <br>
-                            Email:<br>
-                            <input type="email" name="emailaddress" value="Enter">
-                            <br><br>
-                            <input type="submit" value="Submit">
-                          </form> 
-                          
-                          <p>Thank you for signing up!</p>
-                      </div>
-                    
+                        <!-- Trigger/Open The Modal -->
+                        <button id="myBtn">Join Our Newsletter!</button>
+                            
+                        <!-- The Modal -->
+                        <div id="myModal" class="modal">
+                            
+                        <!-- Modal content -->
+                        <div class="modal-content">
+                            <span class="close">&times;</span>
+                                <h2>Join our Newsletter!</h2>
+                                    <form action="/action_page.php">
+                                        Full Name:<br>
+                                        <input type="text" name="fullname" value="Enter">
+                                        <br>
+                                        Email:<br>
+                                        <input type="email" name="emailaddress" value="Enter">
+                                        <br><br>
+                                        <input type="submit" value="Submit">
+                                    </form>                      
+                                    <p>Thank you for signing up!</p>
+                        </div>
+                        </div>
+                        
                     </div>
-                    </div>
-                                
-                            </header>
+                    <div class="shopping-cart">
+                            <a href="#shopping"><i class="fa fa-shopping-cart" style="font-size:36px"></i></a>
+                            </div>
+                </div>
+        <!--header logo-->
+        <div class="nav-row">
+                <div class="topnav">
+                    <a class="active" href="index.html">Home</a>
+                    <a href="#ourstory">Our Story</a>
+                    <a href="shirts.html">Shop</a>
+                    <a href="blog.html">Blog</a>
+                    <form action="/action_page.php">
+                        <input type="text" placeholder="Search.." name="search">
+                        <button type="submit"><i class="fa fa-search"></i></button>
+                      </form>
+                  </div>
+            </div>                  
+</header>
 
    
     <main>
-        <h2>Shirts</h2>
-        <div class="product-cards">
-            <img src="img/shirts.jpg" alt="leather jacket" height="225px" width="225px">
-            <img src="img/coming-soon.jpg" alt="placeholder image">
-            <img src="img/coming-soon.jpg" alt="placeholder image">
-            <img src="img/coming-soon.jpg" alt="placeholder image">
-        </div>
-            <div class="product-cards">
-            <img src="img/coming-soon.jpg" alt="placeholder image">
-            <img src="img/coming-soon.jpg" alt="placeholder image">
-            <img src="img/coming-soon.jpg" alt="placeholder image">
-            <img src="img/coming-soon.jpg" alt="placeholder image">
-        </div>
+            <div class="card">
+                    <img src="img/shirts.jpg" alt="Red and Black Plaid Shirt" width="225" height="225">
+                    <h1>Red Plaid Shirt</h1>
+                    <p class="price">$15.00</p>
+                    <p>A true fall classic. Basically, this flannel shirt is begging to be paired with skinny jeans, 
+                        boots & a pumpkin spice latte.</p>
+                        <p>Made of Cotton and Machine Washable</p>
+                        <select>
+                                <option value="small">Small</option>
+                                <option value="medium">Medium</option>
+                                <option value="large">Large</option>
+                                <option value="extra-large">Extra-Large</option>
+                              </select>
+                    <p><button>Add to Cart</button></p>
+                  </div> 
     </main>
     
 
    <!--BEGIN FOOTER-->
-<div class="footer">
-        <div class="logo_container"><a class="footer_logo" href="#">
-              <img src="img/authentic_grace_logo.jpg" width="150px">
+<footer>
+        <div class="ft-main">
+            <div class="ft-main-item">
+                <h2 class="ft-title">About</h2>
+                <ul>
+                    <li><a href="#">Shop</a></li>
+                    <li><a href="#">Our Story</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class="ft-main-item">
+                <h2 class="ft-title">Help</h2>
+                <ul>
+                    <li><a href="#">Track Order</a></li>
+                    <li><a href="#">Help</a></li>
+                    <li><a href="#">FAQ</a></li>
+                </ul>
+            </div>
+            <div class="ft-main-item">
+                <h2 class="ft-title">Contact</h2>
+                <ul>
+                    <li><a href="#">Help</a></li>
+                    <li><a href="#">Sales</a></li>
+                </ul>
+            </div>
+            <div class="ft-main-address">
+            <p>Authentic Grace Clothing Boutique
+                53 King Street
+                Charleston, SC 29403
+                (843)562-4901
+            </p>
+            </div>
         </div>
-   
- 
-    
-      <!--START footer social media links-->
-
-      <div class="social_media_links_container">
-            <ul>
-              <li><a href="https://www.facebook.com"><img src="img/iconfinder_Circled_Facebook_svg_5279111.png" width="30px"></a></li>
-              <li><a href="https://www.instagram.com"><img src="img/iconfinder_Circled_Instagram_svg_5279112.png" width="30px"></a></li>
-              <li><a href="https://twitter.com/"><img src="img/iconfinder_Circled_Twitter_svg_5279123.png" width="30px"></a></li>
+        <!-- Footer social -->
+      <div class="ft-social">
+            <ul class="ft-social-list">
+              <li><a href="#"><i class="fa fa-facebook-square" style="font-size:36px"></i></a></li>
+              <li><a href="#"><i class="fa fa-twitter-square" style="font-size:36px"></i></a></li>
+              <li><a href="#"><i class="fa fa-instagram" style="font-size:36px"></i></a></li>
             </ul>
-      </div>
-   <!--END footer social media links-->
-      <div class="about_links_container">
-               <h3 class="footer_about">ABOUT</h3>
-
-                  <ul class="footer_ABOUT_links">
-                      <li><a href="#">Shop</a></li>
-                      <li><a href="#">Our Story</a></li>
-                      <li><a href="#">Blog</a></li>
-                      <li><a href="#">Contact</a></li>
-                  </ul>
-      </div>
-  <!--End footer "ABOUT" links-->
-
-  <!--Start footer "HELP" links-->
-
-      <div class="help_links_container">
-              <h3 class="footer_help">HELP</h3>
-
-                  <ul class="footer_HELP_links">
-                      <li><a href="#">Track Order</a></li>
-                      <li><a href="#">Help</a></li>
-                      <li><a href="#">FAQ</a></li>
-                  </ul>
-      </div>
-  <!--End footer "HELP" links-->
-  
-  <!--Start subscription email listing entry links-->
-  <div class="subscription_email_entry_container">
-      <label for="subsciption-EMAIL">SUBSCRIBE TO OUR MAILING LIST</label>
-          <input type="email" value name="EMAIL" class="email form-control" id="ag-EMAIL" placeholder="email address" required>          
-              <button class="newsletter-button" type="submit" placeholder="submit" required>
-                  <i class="fa fa-angle-right"::before></i>
-              </button>
-  </div>
-  <!--End subscription email listing entry links-->
-  
-</div>
-
-<!--END FOOTER container-->
+        </div>
+    </footer>
     
+    <!--END FOOTER container-->
     </body>
 
 </html>
