@@ -2,7 +2,7 @@
 
 View on Netlify at https://authentic-grace-2.netlify.com/
 
-##About the project
+## About the project
 
 Authentic Grace is a fictional brick-and-mortar clothing store that needed a website to establish an online presence. The front-end of the website was built by Sherry Nance and Almarose Revives as the product of an assigment in Cohort 4 of The Moms Can: Code School.
 
@@ -17,13 +17,40 @@ Buyer Persona: Erin, 37, a fit and active woman with two children under the age 
 The customer requested the following features:
 
 -Straightforward logical web structure.
+
 -Responsive Web Design
+
 -Prominent Navigation Bar
+
 -Consistent Theme
+
 -Images
+
 -Social media links
+
 -Footer
+
 -Contact info for the store
+
 -Customer testimonials
 
-##Wirefame
+
+## Wirefame
+
+![Wireframe Image](AuthenticGraceWireframe.png)
+
+## Contact
+
+Sherry Nance
+
+Portfolio: https://sherrynance.github.io/Portfolio/
+
+Github: sherrynance
+
+Twitter: @sherry_nance
+
+Almarose Revives
+
+GitHub: arevives
+
+Twitter: @AlmaroseR
