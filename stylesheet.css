@@ -114,7 +114,7 @@ button:hover {
 .topnav a {
   float: left;
   display: block;
-  color: #6d6d6e;
+  color: #454545;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -123,7 +123,7 @@ button:hover {
 
 .topnav a:hover {
   background-color: #ffffff;
-  color: #6d6d6e;
+  color: #454545;
 }
 
 .topnav a.active {
@@ -203,7 +203,9 @@ main h2 {
 .story-image img {
   text-align: center;
   border: 3px solid #6d6d6e;
-  box-shadow: 3px 3px 8px 0px rgba(0,0,0,0.3); 
+  box-shadow: 3px 3px 8px 0px rgba(0,0,0,0.3);
+  width: 800px;
+  height: 500px;
 }
 
 
@@ -229,6 +231,8 @@ main h2 {
     box-shadow: 3px 3px 8px 0px rgba(0,0,0,0.3); 
     max-width: 23vw;
     text-align: center;
+    width: 225px;
+    height: 225px;
   }
 
   .flex-container {
@@ -249,6 +253,8 @@ main h2 {
 }
 .reviews img {
   border-radius: 50%;
+  width: 100px; 
+  height: 100px;
 }
 
   .blog p {
@@ -259,6 +265,8 @@ main h2 {
   }
   .blog img {
     border-radius: 50%;
+    width: 100px; 
+    height: 100px;
   }
 
   .card {
@@ -273,7 +281,7 @@ main h2 {
   .card h1 {
     font-family: 'Lato', sans-serif;
     font-size: 30px;
-    color: #6d6d6e;
+    color: #454545;
     text-align: center;
     }
 
@@ -282,7 +290,7 @@ main h2 {
   }
   
   .price {
-    color: grey;
+    color: #454545;
     font-size: 22px;
   }
   
